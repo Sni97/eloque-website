@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eloque - Timeless Elegance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Eloque</h1>
+                <p>Exquisite Threads for Unrivaled Presence</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#csr">CSR</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Discover Timeless Elegance in Every Stitch</h2>
+            <p>Premium menswear crafted from natural fabrics like linen and hemp.</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Eloque is a premium menswear brand offering versatile, elegant clothing made from high-quality linen and hemp. We focus on craftsmanship and customization, catering to men seeking understated sophistication.</p>
+            <p>Our mission is to craft sophisticated menswear that tells a story of understated luxury, adaptability, and personal expression through every stitch.</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="images/trousers.jpg" alt="Tailored Trousers">
+                    <h3>Tailored Trousers</h3>
+                    <p>Price: INR 6000 - INR 22000</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/shirts.jpg" alt="Linen Shirts">
+                    <h3>Linen Shirts</h3>
+                    <p>Price: INR 4500 - INR 13000</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/accessories.jpg" alt="Caps and Accessories">
+                    <h3>Accessories</h3>
+                    <p>Caps, bows, suspenders - perfect for the classic, modern edge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSR Section -->
+    <section id="csr">
+        <div class="container">
+            <h2>Corporate Social Responsibility</h2>
+            <p>At Eloque, sustainability and ethical practices are the foundation of our brand. We use natural fabrics like linen and hemp, implement ethical sourcing, and focus on reducing our environmental impact through eco-friendly production techniques.</p>
+            <p>Our CSR initiatives include cause-related marketing, socially responsible business practices, and consumer education to foster a mindful lifestyle.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <h2>Our Blog</h2>
+            <div class="blog-post">
+                <h3>The Benefits of Linen and Hemp in Sustainable Fashion</h3>
+                <p>Explore how natural fabrics like linen and hemp contribute to a more sustainable future while offering timeless style and comfort.</p>
+            </div>
+            <div class="blog-post">
+                <h3>Achieving the Old-Money Aesthetic with Eloque</h3>
+                <p>Learn how to embrace understated elegance and timeless style through Eloque's premium menswear collection.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Eloque. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
